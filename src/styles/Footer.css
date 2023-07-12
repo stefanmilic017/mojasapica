@@ -1,0 +1,22 @@
+footer {
+    background: #282828;
+}
+.logo-footer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.logo-footer .logo-footer-img img {
+    width: 200px;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.copyright p {
+    color: #fff;
+}

@@ -1,0 +1,38 @@
+.image-list {
+    padding: 50px 0;
+}
+
+.image-list h1 {
+    text-align: center;
+    text-transform: uppercase!important;
+    letter-spacing: 1px!important;
+    margin-bottom: 40px;
+}
+
+.rendered-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    margin: 20px 20px 20px 20px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.rendered-images .gallery-img:hover {
+   scale: 1.1;
+   opacity: 0.8;
+   rotate: 3deg;
+   transition: .2s ease-in-out;
+}
+
+@media (max-width:579px) {
+    .gallery-img {
+        width: 80%;
+    }
+}

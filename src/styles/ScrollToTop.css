@@ -1,0 +1,26 @@
+.scrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+    background-color: black;
+    height: 40px;
+    border-radius: 10px;
+    color:white;
+    cursor:pointer;
+    padding: 10px 10px 35px;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    min-width: 50px;
+    z-index: 99;
+}
+
+.scrollToTop i {
+    font-weight: 900;
+}
+
+.scrollToTop:hover {
+    background-color: #636363;
+    color: #000;
+}

@@ -1,0 +1,62 @@
+.contact {
+    margin: 30px 0 100px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    color: #e1e1e1;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+.contact-content  .contact-content-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.contact-content-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-content-right .mojasapica-ig {
+    border-left: 1px solid white;
+}
+
+.contact-content .contact-content-left p {
+    text-align: center;
+    align-self: center;
+    padding: 0 10px;
+}
+.contact-content-left p b {
+    font-size: 18px;
+    color:#fff;
+}
+
+@media (max-width:579px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-content-right .mojasapica-ig {
+        border-left: none;
+        width: 80%!important;
+        border-top: 1px solid white;
+        margin: 10px auto 0;
+        padding-top: 10px;
+    }
+}
