@@ -5,12 +5,12 @@ const items = [
   {
     title: "Ručno izrađeni krevetići",
     content:
-      "Krevetići se mogu izraditi od raznih vrsta tkanina i ispuniti materijalom po vašoj želji. Pored toga sto su izdržljivi pružaju udobnost i savršeno iskustvo za spavanje vašeg ljubimca.",
+      "Krevetići se mogu izraditi od raznih vrsta tkanina i ispuniti materijalom po vašoj želji. Pored toga što su izdržljivi pružaju udobnost i savršeno iskustvo za spavanje vašeg ljubimca.",
   },
   {
     title: "Raznih dimenzija i dezena",
     content:
-      "Verujemo da krevetići pored toga što su funkcionalni, trebaju odgovarati i stilu vašeg kućnog prostora. Možemo dizajnirati jedinstvene primerke, od morenih i jedinstvenih do tradicionalnih i složenih oblika i boja. Sa našim ručno izrađenim krevetićima možete omogućiti vašem ljubimcu poseban prostor, dok ujedno ulepšavate estetiku vašeg životnog prostora.",
+      "Verujemo da krevetići pored toga što su funkcionalni, trebaju odgovarati i stilu vašeg kućnog prostora. Možemo dizajnirati jedinstvene primerke, od modernih i jedinstvenih do tradicionalnih i složenijih oblika i boja. Sa našim ručno izrađenim krevetićima možete omogućiti vašem ljubimcu poseban prostor, dok ujedno ulepšavate estetiku vašeg životnog prostora.",
   },
   {
     title: "Krevetići sa ušivenim imenom",
