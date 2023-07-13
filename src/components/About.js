@@ -8,10 +8,9 @@ import kreveticSunce from "../images/gallery/krevetic-17.jpg";
 const About = () => {
   const aboutImages = [
     { image: kreveticPas2, headerText: "Ručno izrađeni krevetići", altName: 'krevetic-pas-2'},
-    { image: kreveticTeddy, headerText: "Krevetići sa ušivenim imenom<", altName: 'krevetic-teddy' },
+    { image: kreveticTeddy, headerText: "Krevetići sa ušivenim imenom", altName: 'krevetic-teddy' },
     { image: kreveticSunce, headerText: "Raznih dimenzija i dezena", altName: 'krevetic-sunce' },
   ];
-
   return (
     <section className="about">
       <div className="about-header">
