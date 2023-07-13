@@ -7,9 +7,9 @@ import kreveticSunce from "../images/gallery/krevetic-17.jpg";
 
 const About = () => {
   const aboutImages = [
-    { image: kreveticPas2, headerText: "Ručno izrađeni krevetići" },
-    { image: kreveticTeddy, headerText: "Krevetići sa ušivenim imenom<" },
-    { image: kreveticSunce, headerText: "Raznih dimenzija i dezena" },
+    { image: kreveticPas2, headerText: "Ručno izrađeni krevetići", altName: 'krevetic-pas-2'},
+    { image: kreveticTeddy, headerText: "Krevetići sa ušivenim imenom<", altName: 'krevetic-teddy' },
+    { image: kreveticSunce, headerText: "Raznih dimenzija i dezena", altName: 'krevetic-sunce' },
   ];
 
   return (
@@ -30,16 +30,19 @@ const About = () => {
           <AboutBedWrapper
             image={aboutImages[0].image}
             headerText={aboutImages[0].headerText}
+            alt={altName}
           />
         </div>
         <div className="bed-wrapper">
           <AboutBedWrapper
             image={aboutImages[1].image}
             headerText={aboutImages[1].headerText}
+            alt={altName}
           />
           <AboutBedWrapper
             image={aboutImages[2].image}
             headerText={aboutImages[2].headerText}
+            alt={altName}
           />
         </div>
       </div>
