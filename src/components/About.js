@@ -30,19 +30,19 @@ const About = () => {
           <AboutBedWrapper
             image={aboutImages[0].image}
             headerText={aboutImages[0].headerText}
-            alt={altName}
+            alt={aboutImages[0].altName}
           />
         </div>
         <div className="bed-wrapper">
           <AboutBedWrapper
             image={aboutImages[1].image}
             headerText={aboutImages[1].headerText}
-            alt={altName}
+            alt={aboutImages[1].altName}
           />
           <AboutBedWrapper
             image={aboutImages[2].image}
             headerText={aboutImages[2].headerText}
-            alt={altName}
+            alt={aboutImages[2].altName}
           />
         </div>
       </div>
