@@ -1,14 +1,10 @@
 import React from "react";
 
-const AboutBedWrapper = ({ add, image, alt, header }) => {
-  if (add === undefined) add = "";
-
+const AboutBedWrapper = ({ image, headerText }) => {
   return (
-    <div className="bed-wrapper">
-      <div className="bed-content">
-        <img className={`${add} ui fluid image`.trim()} src={image} alt={alt} />
-        <h2>{header}</h2>
-      </div>
+    <div className="bed">
+      <img className="bed-image" src={image} />
+      <h2 className="bed-header">{headerText}</h2>
     </div>
   );
 };

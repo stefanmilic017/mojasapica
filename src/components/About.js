@@ -1,8 +1,17 @@
 import React from "react";
 import "../styles/About.css";
 import AboutBedWrapper from "./AboutBedWrapper";
+import kreveticPas2 from "../images/krevetic-pas-2.jpg";
+import kreveticTeddy from "../images/krevetic-teddy.jpg";
+import kreveticSunce from "../images/gallery/krevetic-17.jpg";
 
 const About = () => {
+  const aboutImages = [
+    { image: kreveticPas2, headerText: "Ručno izrađeni krevetići" },
+    { image: kreveticTeddy, headerText: "Krevetići sa ušivenim imenom<" },
+    { image: kreveticSunce, headerText: "Raznih dimenzija i dezena" },
+  ];
+
   return (
     <section className="about">
       <div className="about-header">
@@ -15,28 +24,23 @@ const About = () => {
           <li>Moguće ušivanje imena na krevetiću</li>
         </ul>
       </div>
+
       <div className="beds-container">
-        <div className="beds-wrapper">
-          <div className="bed-first-part">
-            <AboutBedWrapper
-              image={require("../images/krevetic-pas-1.jpg")}
-              alt="krevetic-pas-1"
-              header="Ručno izrađeni krevetići"
-            />
-          </div>
-          <div className="bed-second-part">
-            <AboutBedWrapper
-              add="bed-with-name"
-              image={require("../images/krevetic-teddy.jpg")}
-              alt="krevetic-sa-imenom-teddy"
-              header="Krevetići sa ušivenim imenom"
-            />
-            <AboutBedWrapper
-              image={require("../images/gallery/krevetic-17.jpg")}
-              alt="krevetic-sunce"
-              header="Raznih dimenzija i dezena"
-            />
-          </div>
+        <div className="bed-wrapper">
+          <AboutBedWrapper
+            image={aboutImages[0].image}
+            headerText={aboutImages[0].headerText}
+          />
+        </div>
+        <div className="bed-wrapper">
+          <AboutBedWrapper
+            image={aboutImages[1].image}
+            headerText={aboutImages[1].headerText}
+          />
+          <AboutBedWrapper
+            image={aboutImages[2].image}
+            headerText={aboutImages[2].headerText}
+          />
         </div>
       </div>
     </section>
