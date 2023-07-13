@@ -19,7 +19,7 @@ const About = () => {
         <div className="beds-wrapper">
           <div className="bed-first-part">
             <AboutBedWrapper
-              image={require("../images/krevetic-pas-1.png")}
+              image={require("../images/krevetic-pas-1.jpg")}
               alt="krevetic-pas-1"
               header="Ručno izrađeni krevetići"
             />
